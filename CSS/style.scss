@@ -1,0 +1,35 @@
+@import "../fontawesome-free-5.0.8/web-fonts-with-css/css/fontawesome-all.css";
+@import "bootstrap.css";
+@import "bootstrap-grid.css";
+@import "bootstrap-reboot.css";
+
+header{
+ .headerTop{
+   background-color: #f2f2f2;
+   height: 60px;
+   li{
+     display: inline;
+     text-transform: uppercase;
+     font-size: 12px;
+     color: black;
+     margin-left: 18px;
+     padding-right: 10px;
+     &:before{
+       content: "";
+       display: block;
+       width: 2px;
+       height: 10px;
+       background-color: #7e7974;
+       position: relative;
+       right: 18px;
+     }
+   }
+ }
+
+}
+
+
+
+
+
+
